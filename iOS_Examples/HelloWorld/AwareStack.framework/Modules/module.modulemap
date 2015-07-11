@@ -1,0 +1,10 @@
+framework module AwareStack {
+  umbrella header "AwareStack.h"
+
+  export *
+  module * { export * }
+}
+
+module AwareStack.Swift {
+    header "AwareStack-Swift.h"
+}
